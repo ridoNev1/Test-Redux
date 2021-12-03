@@ -42,14 +42,14 @@ const ModalComponent = ({
               <BsPencil className="ml-2 text-sm" />
             </span>
           </button>
-          {!isCreate && (
+          {/* {!isCreate && (
             <button
               className="ml-2 bg-mainbg flex justify-between hover:text-white transition hover:border-mainbg items-center text-sm font-medium text-white py-1.5 px-3 border rounded-full"
               onClick={() => onEdit(true)}
             >
               Set {cantDelete ? "Uncomplete" : "Complete"}
             </button>
-          )}
+          )} */}
           {!isCreate && !cantDelete && (
             <button
               className="ml-2 bg-danger flex justify-between hover:text-white transition hover:border-danger items-center text-sm font-medium text-white py-1.5 px-3 border rounded-full"
